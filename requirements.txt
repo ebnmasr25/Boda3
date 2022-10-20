@@ -8,4 +8,4 @@ pymongo[srv]
 pytube
 asyncio
 pyshorteners
-googlesearch 
+googlesearch-python
