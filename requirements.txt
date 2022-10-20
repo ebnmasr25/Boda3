@@ -1,5 +1,5 @@
 pyrogram
-yd_dlp 2022.10.4
+yt-dlp
 requests
 wegt
 youtube_search
