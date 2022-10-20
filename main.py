@@ -94,7 +94,7 @@ async def st(client,message):
 			c = len(await get_users())
 			await app.send_message(
 			OWNER,
-			NEW_MEMBER.format(a.b.c)
+			NEW_MEMBER.format(a,b,c)
 			)
 	do = requests.get(f"https://api.telegram.org/bot{app_token}/getChatMember?chat_id=@{CHANNEL}&user_id={message.from_user.id}").text
 	if do.count("left") or do.count("Bad Request: user not found"):
