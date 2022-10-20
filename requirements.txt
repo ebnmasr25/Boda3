@@ -1,7 +1,7 @@
 pyrogram
 yt-dlp
 requests
-wegt
+wget
 youtube_search
 motor
 re
