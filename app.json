@@ -1,45 +1,44 @@
 {
+
   "logo":"https://g.top4top.io/p_23787w6g31.jpg",
+
   "name": "YT-Downloader",
-  "description": "- تواصل يحب  .",
+
+  "description": "- بوت تحميل من يوتيوب .",
+
   "env": {
+
     "TOKEN": {
+
       "description": "Enter bot token Get It From @botfather.",
-      "required":true,
+
       "value": ""
+
     },
+
     "APP_ID": {
+
       "description": "Get this value from my.telegram.org! Please do not steal.",
-      "required":true,
+
       "value": ""
+
     },
+
     "API_HASH": {
+
       "description": "Get this value from my.telegram.org! Please do not steal.",
-      "required":true,
+
       "value": ""
-    },
-    "OWNER_NAME":{
-    "description":"Put Your Telegram Name",
-    "required":true,
-    "value":""
-    },
-    "OWNER":{
-    "description":"put your id",
-    "required":true ,
-    "value":""
-    },
-    "CONTACT":{
-    "description":"حط رقمك لو عاوز لو م عاوزو يظهر ف البوت خلاص ",
-    "required":false,
-    "value":""
-    },
-    "CHANEL":{
-    "description":"قناتك",
-    "required":true,
-    "value":""
+
     }
+
   },
+
   "buildpacks": [{
+
     "url": "https://github.com/heroku/heroku-buildpack-python.git"
+
   }]
+
 }
+
