@@ -110,7 +110,7 @@ async def st(client,message):
 		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("- Channel",url="https://t.me/pyth_on3"),InlineKeyboardButton("- Dev ",user_id=5701042002)],]))
 	
 		
-@app.on_message(filters.command(['نسخه','نسخة','نسخه احتياطيه','نسخة احتياطية','احتياطيه','احتياطية'],prefixes="")&ay.user(OWNER))
+@app.on_message(filters.command(['نسخه','نسخة','نسخه احتياطيه','نسخة احتياطية','احتياطيه','احتياطية'],prefixes="")&filters.user(OWNER))
 async def getl(client,message):
 	m = await message.reply("**prossing...**")
 	filename = "@U_X3a-users.txt"
