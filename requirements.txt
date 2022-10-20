@@ -4,7 +4,6 @@ requests
 wget
 youtube_search
 motor
-re
 pymongo[srv]
 pytube
 asyncio
