@@ -108,7 +108,7 @@ async def st(client,message):
 		photo=photo,
 		caption=TEXT.format(message.from_user.mention,x),
 		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("- Channel",url="https://t.me/pyth_on3"),InlineKeyboardButton("- Dev ",user_id=5701042002)],]))
-	except:pass
+	
 		
 @app.on_message(ay.command(['نسخه','نسخة','نسخه احتياطيه','نسخة احتياطية','احتياطيه','احتياطية'],prefixes="")&ay.user(OWNER))
 async def getl(client,message):
